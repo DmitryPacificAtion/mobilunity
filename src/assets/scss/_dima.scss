@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+.dima-header, .dima-footer, .dima-header table, .dima-footer table {
+	background-color: $dima-black;
+}
+.logo-txt {
+	color: $dima-green;
+	background-color: $dima-black;
+	font-family: 'Pacifico';
+	font-size: 18px;
+	text-shadow: 2px 2px 6px black;
+}
+.after-logo {
+	color: $white;
+	font-family: 'Arial';
+	font-size: 12px;
+}
+.sidebar-articles h3 {
+	font-size: 18px;
+}
+.content-table {
+	border: 1px solid $light-gray;
+	vertical-align: baseline;
+	.columns {
+		border: 1px solid $light-gray;
+		vertical-align: middle;
+	}
+	.columns th {
+		text-align: center;
+	}
+	& th {
+		font-size: 14px;
+	}
+}
+.unscribe {
+	th {
+		font-size: 10px;
+		color: $dark-gray;
+		a {
+			color: $white;
+		}
+	}
+}
+
+table.sidebar-articles {
+	th.menu-item {
+		text-align: left;
+		a {
+			font-weight: 500;
+			&:hover {
+				color: $dima-green;
+			}
+		}
+	}
+}
